@@ -1,0 +1,163 @@
+body, html {
+  height: 100%;
+  margin:0;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url(msd.jpg);
+  /* Set a specific height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.heading{width:50%;
+  margin: auto;
+top:150px;
+  left:900px;
+  color: white;
+    font-family: 'Sacramento', cursive;
+    display: inline-block;
+    position:relative;
+}
+.MSD{ width:50%;
+     margin:auto;
+   text-align:left;
+   display:inline-block;
+    position:relative;
+   top:200px;
+   left:100px;
+
+ }
+ .pic{
+       float:left;
+     width:25%;
+     margin:0 25px 50px 0;}
+p{
+  line-height:2;
+  color:white;
+}
+.table{ width:40%;
+  margin:auto;
+  display:inline-block;
+  position:relative;
+  top:450px;
+  left:200px;
+  text-align: left;
+  color:white;
+}
+th,td{padding: 5px;}
+
+caption{text-align: left;
+         display:table-caption;
+    font:bold;}
+.thoughts{
+  width:30%;
+  margin:auto;
+  display:inline-block;
+  position: relative;
+  left:150px;
+  top:200px;
+}
+.SD{   width:50%;
+  margin:auto;
+  display:inline-block;
+  position: relative;
+  left:250px;
+  top:300px;
+}
+.pic1{
+  float:left;
+width:20%;
+margin:0 10px 100px 0;
+}
+.DG{
+  width:50%;
+    margin:auto;
+    display:inline-block;
+    position: relative;
+    left:250px;
+    top:50px;
+}
+.pic2{
+  float:left;
+  width:18%;
+  margin:0 20px 40px 0;
+}
+.achivements{
+     width:50%;
+    margin:auto;
+    display:inline-block;
+    position: relative;
+    left:700px;
+    top:100px;
+}
+.list{
+  color:white;
+  line-height: 1.5;
+}
+.icc{
+  width:50%;
+ margin:auto;
+ display:inline-block;
+ position: relative;
+ left:200px;
+ top:100px;
+}
+.pics{
+  width:30%;
+  margin:10px 30px 0 0;
+  float:left;
+}
+.personal{
+  width:70%;
+ margin:auto;
+ display:inline-block;
+ position: relative;
+ left:250px;
+ top:150px;
+}
+.jorney{
+  line-height:1;
+}
+.myButton {
+	box-shadow: -1px 3px 0 0 #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:4px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:4px 0;
+	text-decoration:none;
+	text-shadow:0 0 0 #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.sites{
+  background-color: #006a71;
+  margin:0;
+  text-align: left;
+}
+hr{ border-style: dotted none none none;
+  width: 5%;
+  border-color: grey;
+  border-width: 10px;
+  margin:10px auto;
+}
